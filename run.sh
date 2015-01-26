@@ -6,31 +6,31 @@
 
 # Run the optimal solution.
 echo "## Optimal: 6 points"
-echo '```'
+echo
 ./optimaltsp.py tsp6.txt
-echo '```'
+echo
 echo "## Optimal: 9 points"
-echo '```'
+echo
 ./optimaltsp.py tsp9.txt
-echo '```'
+echo
 echo "## Optimal: 10 points"
-echo '```'
+echo
 ./optimaltsp.py tsp10.txt
-echo '```'
+echo
 
 # Run the nearest-neighbor solution.
 echo "## Nearest neighbor: 9 points"
-echo '```'
+echo
 ./nearestneighbor.py tsp9.txt
-echo '```'
+echo
 echo "## Nearest neighbor: 1500 points"
-echo '```'
+echo
 ./nearestneighbor.py tsp1500.txt | grep -v route
-echo '```'
+echo
 echo "## Nearest neighbor: 3000 points"
-echo '```'
+echo
 ./nearestneighbor.py tsp3000.txt | grep -v route
-echo '```'
+echo
 echo "## Nearest neighbor: 9000 points"
-echo '```'
+echo
 ./nearestneighbor.py tsp9000.txt | grep -v route
