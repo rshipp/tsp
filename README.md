@@ -1,6 +1,6 @@
 # Traveling Salesman Problem
 
-Two implementations of solutions to the Traveling Salesman Problem.
+Two implementations of solutions to the Traveling Salesman Problem in Python3.
 
 The first solution brute forces all permutations and is guaranteed to find
 the optimal solution for visiting all points.
@@ -8,6 +8,19 @@ the optimal solution for visiting all points.
 The second solution is "nearest neighbor", which is much faster, but is not
 guaranteed to find the optimal solution. In some edge cases, it finds very poor
 solutions.
+
+## Usage
+
+If you want to run the comparisons yourself, just go
+
+    ./run.sh
+
+Afterwards, delete the data files with
+
+    ./clean.sh
+
+Or, if you want to run individual tests, just use `./optimaltsp.py FILENAME` or
+`./nearestneighbor.py FILENAME`.
 
 ## Comparison
 
