@@ -9,6 +9,9 @@ The second solution is "nearest neighbor", which is much faster, but is not
 guaranteed to find the optimal solution. In some edge cases, it finds very poor
 solutions.
 
+My implementations of these algorithms display about O(n!) and 1/4 O(n^2) time,
+respectively.
+
 ## Usage
 
 If you want to run the comparisons yourself, just go
