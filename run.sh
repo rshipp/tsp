@@ -34,3 +34,6 @@ echo
 echo "## Nearest neighbor: 9000 points"
 echo
 ./nearestneighbor.py tsp9000.txt | grep -v route
+
+# Clean up
+./clean.sh

@@ -15,10 +15,6 @@ If you want to run the comparisons yourself, just go
 
     ./run.sh
 
-Afterwards, delete the data files with
-
-    ./clean.sh
-
 Or, if you want to run individual tests, just use `./optimaltsp.py FILENAME` or
 `./nearestneighbor.py FILENAME`.
 

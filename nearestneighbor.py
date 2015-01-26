@@ -6,6 +6,8 @@ import timeit
 
 import tspinput
 
+RUNS = 3
+
 data = tspinput.get(sys.argv[1])
 
 setup = """
@@ -35,4 +37,4 @@ print("Optimal route:", path)
 print("Length:", sum)
 """
 
-print("Time (s):", timeit.timeit(code, setup, number=1))
+print("Time (seconds, avg out of {runs}):".format(runs=RUNS), timeit.timeit(code, setup, number=RUNS)/RUNS)
