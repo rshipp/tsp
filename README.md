@@ -1,6 +1,6 @@
 # Traveling Salesman Problem
 
-Two implementations of solutions to the Traveling Salesman Problem in Python3.
+Two implementations of solutions to the Traveling Salesman Problem in Python 3.
 
 The first solution brute forces all permutations and is guaranteed to find
 the optimal solution for visiting all points.
