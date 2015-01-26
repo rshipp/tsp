@@ -36,4 +36,4 @@ echo
 ./nearestneighbor.py tsp9000.txt | tail -3 | grep -v route
 
 # Clean up
-./clean.sh
+./clean.sh >/dev/null
