@@ -7,33 +7,33 @@
 # Run the optimal solution.
 echo "## Optimal: 6 points"
 echo
-./optimaltsp.py tsp6.txt
+./optimaltsp.py tsp6.txt | tail -3
 echo
 echo "## Optimal: 9 points"
 echo
-./optimaltsp.py tsp9.txt
+./optimaltsp.py tsp9.txt | tail -3
 echo
 echo "## Optimal: 10 points"
 echo
-./optimaltsp.py tsp10.txt
+./optimaltsp.py tsp10.txt | tail -3
 echo
 
 # Run the nearest-neighbor solution.
 echo "## Nearest neighbor: 9 points"
 echo
-./nearestneighbor.py tsp9.txt
+./nearestneighbor.py tsp9.txt | tail -3
 echo
 echo "## Nearest neighbor: 1500 points"
 echo
-./nearestneighbor.py tsp1500.txt | grep -v route
+./nearestneighbor.py tsp1500.txt | tail -3 | grep -v route
 echo
 echo "## Nearest neighbor: 3000 points"
 echo
-./nearestneighbor.py tsp3000.txt | grep -v route
+./nearestneighbor.py tsp3000.txt | tail -3 | grep -v route
 echo
 echo "## Nearest neighbor: 9000 points"
 echo
-./nearestneighbor.py tsp9000.txt | grep -v route
+./nearestneighbor.py tsp9000.txt | tail -3 | grep -v route
 
 # Clean up
 ./clean.sh
