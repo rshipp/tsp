@@ -18,7 +18,17 @@ If you want to run the comparisons yourself, just go
 Or, if you want to run individual tests, just use `./optimaltsp.py FILENAME` or
 `./nearestneighbor.py FILENAME`.
 
-## Comparison
+## Graphs
+
+Here are some quick runtime graphs, courtesy of [WolframAlpha](http://www.wolframalpha.com).
+
+### Optimal
+![optimal graph](optimal.png "x-axis is input points; y-axis is seconds")
+
+### Nearest neighbor
+![nearest neighbor graph](nn.png "x-axis is input points; y-axis is seconds")
+
+## Data
 
 ### Optimal: 6 points
 
