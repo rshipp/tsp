@@ -37,4 +37,4 @@ print("Optimal route:", path)
 print("Length:", sum)
 """
 
-print("Time (seconds, avg out of {runs}):".format(runs=RUNS), timeit.timeit(code, setup, number=RUNS)/RUNS)
+print("Time (seconds, avg of {runs}):".format(runs=RUNS), timeit.timeit(code, setup, number=RUNS)/RUNS)
