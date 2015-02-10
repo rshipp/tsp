@@ -27,11 +27,15 @@ code = """
 point, *route = """+data+"""
 path = [point]
 sum = 0
-while len(route) > 1:
+while len(route) >= 1:
     closest, dist = closestpoint(path[-1], route)
     path.append(closest)
     route.remove(closest)
     sum += dist
+# Go back the the beginning when done.
+closest, dist = closestpoint(path[-1], [point])
+path.append(closest)
+sum += dist
 
 print("Optimal route:", path)
 print("Length:", sum)
