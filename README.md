@@ -1,5 +1,7 @@
 # Traveling Salesman Problem
 
+[![Drop ICE](drop.png)](https://twitter.com/githubbers/status/1182017616740663296)
+
 Two implementations of solutions to the Traveling Salesman Problem in Python 3.
 
 The first solution brute forces all permutations and is guaranteed to find
